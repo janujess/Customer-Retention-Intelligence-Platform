@@ -1,0 +1,44 @@
+# Credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.key
+*.pem
+!certificates/ca.pem
+
+# Local environments
+.venv/
+venv/
+anaconda_projects/
+.idea/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and temporary outputs
+datasets/
+artifacts/
+*.csv
+*.sql
+
+# Experimental model artifacts
+models/baseline/
+models/evaluation/
+models/rigorous_tuning/
+models/tuned/
+
+# Development notebooks
+notebooks/pipeline1.ipynb
+notebooks/pipeline2.ipynb
+notebooks/pipeline_0.ipynb
+notebooks/practice_notebook.ipynb
+notebooks/practice notebook.ipynb
+
+# System files
+.DS_Store
+Thumbs.db
+# Exclude experimental
+models/v2_30d/baseline/*.joblib
+models/v2_30d/rigorous_tuning/*.joblib
+models/v2_30d/rigorous_tuning/*.json

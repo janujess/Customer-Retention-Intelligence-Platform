@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+sqlalchemy
+pymysql
+cryptography
+python-dotenv
+scikit-learn
+xgboost
+joblib
