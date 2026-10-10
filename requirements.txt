@@ -5,6 +5,6 @@ sqlalchemy
 pymysql
 cryptography
 python-dotenv
-scikit-learn
-xgboost
-joblib
+scikit-learn==1.7.1
+xgboost==3.0.1
+joblib==1.4.2
