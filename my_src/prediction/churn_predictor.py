@@ -351,6 +351,7 @@ class ChurnPredictor:
                 "threshold_used"
             ]
         ]
+        return results
 
 
 
